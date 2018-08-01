@@ -4,20 +4,20 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Xml;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SmartQuestionaire
 {
-    public partial class SmartQuestionaire : Form
+    public partial class Fragebogen : Form
     {
-        public SmartQuestionaire()
+        public Fragebogen()
         {
             InitializeComponent();
         }
 
-        //Möglichkeiten des Sammelns von ICF Codes. Manuelle Eingabe, Auswahl anhand ICF Tree, Eingabe von ICD Nummer und daraus Core Sets.
+        // Übernahme der ICF-Kategorien und erstellen eines dynamischen Fragebogens(DataTable)
+        // Dynamische Erstellung der Fragelabel und Antwortmöglichkeiten
     }
 }
